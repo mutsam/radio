@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: #263238 ;
+} 
+main{
+	width: 360px; 
+	margin: auto;
+	max-height: 100vh;
+	min-height: 100vh;  
+}
+header{
+	text-align: center;
+	color: #fff;
+}
+header img{
+	height: 140px;
+	width: 140px;
+	border-radius: 50%;
+	margin-top: 20px;
+}
+header h2{
+	margin: 20px 0;
+}
+#content{
+	background: #f5f5f5;
+}
+#button i{
+	font-size: 2.4em;
+	margin: 0 15px;
+	color: #263238; ;
+}
+#button{
+	display: flex; 
+	justify-content: center;  
+	padding-top: 10px;
+}
+#button i:hover{
+	font-size: 2.45em;
+}
+
+.valume{
+	text-align: center;
+	color: #263238; ;
+}
+
+.valume input{
+	width: 100%;
+	outline: none;
+}
+
+input[type="range" i]{
+	-webkit-appearance: none;
+	background: #e6e7e8;
+	height: 4px;
+	margin: 0%;
+}
+
+input[type="range" i]::-webkit-slider-thumb{
+	-webkit-appearance: none;
+	background: teal;
+	height: 25px;
+	width: 25px;
+	border-radius: 50%;
+}
+
+.color{
+	margin-top: 15px;
+	text-align: center;
+}
+.color button {
+	width: 26px;
+	height: 26px;
+	border: none;
+	outline: none;
+	border-radius: 50%;
+	background: tomato;
+	
+} 
+ .incolor{ 
+	width: 26px;
+	height: 26px;
+	margin: auto;
+	overflow: hidden; 
+	border-radius: 50%;
+	margin-top: 10px;
+ }
+ input[type="color"]{ 
+	box-sizing: border-box;
+	width: 150px;
+	height: 150px;
+	display: block;  
+	margin: -40px;
+ }
+ #defualt{ background: #263238; }
+ #color1{ background: linear-gradient(to right, rgb(9, 101, 179), rgba(0, 156, 255, 0.34));}
+ #color2{ background: linear-gradient(to right, rgb(0, 156, 99), rgb(162, 220, 204));}
+ #color3{ background: linear-gradient(to right, rgba(255, 71, 0, 0.95), rgb(234, 180, 141));}
+ #color4{ background: linear-gradient(to right, rgb(220, 2, 213), rgb(215, 210, 218));}
+
+
+
+
+
+
+

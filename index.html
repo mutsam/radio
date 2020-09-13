@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Radio </title>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style/style.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style/style2.css'> 
+	<link rel="stylesheet" href='E:/Pragramming Language/Document from web/fontawesome-free-5.13.0-web/css/all.css' />
+	 <link rel="icon" sizes="16x16" type="image/png" href='img/icon.ico'/>
+</head>
+<body> 
+	 
+     <main id='player'>
+		<header>
+			<img src='img/logo.jpg' />
+			<h1> LIVE RADIO  </h1>
+			<p style='font-size: 22px;' id='title_audio'>  Radio 1</p>
+		</header>
+		<div id='content'>  
+			<div id='button'>
+				<i class='fa fa-step-backward' id='back'> </i>
+				<i class='fa fa-play' id='playStop' style='font-size: 2.2em;'> </i> 
+				<i class='fa fa-step-forward' id='next'> </i>	
+			</div> 
+			<audio src='' id='audio'> </audio>
+			
+			<div class='valume'>
+			<h2 id='text1'> Voice </h2>
+			<input type='range' id='voice' min='0' max='100'/>
+			<h2 id='text2'> Speed </h2>
+			<input type='range' id='speed'  min='0' max='200'/>
+		</div>
+		
+		 <div class='color'>
+			<button id='defualt'> </button>
+			<button id='color1'> </button>
+			<button id='color2'> </button>
+			<button id='color3'> </button>
+			<button id='color4'> </button>
+			<div class='incolor'><input type='color' id='allcolor' /> </div>
+		 </div>
+		 
+			<div class='bt'> 
+				<button id='btn'> linearGradient </button>
+			</div>
+			
+		</div>
+	 </main>
+	 
+	 <!-- -->
+	 
+	<div class='can' id='all'>
+    <div id='clear'>  <i class='fa fa-plus' style='transform: rotate(45deg); font-weight: none;'> </i></div>
+				
+   <div class='center'> 
+     <div class='colors'>
+     	<div class='ed'>
+		  <div></div>  <div> Left </div>
+ 		 	 <div> To </div> 
+ 		  <div> Right</div> <div></div>
+        </div>
+         <div class='ed'>
+            <span > </span>
+         	<div class='styleColor'>
+        	  <input type='color' id='left' />
+            </div>
+            <span > </span>
+            <div class='styleColor'>
+        	  <input type='color' id='right' />
+            </div>    <span > </span>
+        </div>
+      </div>
+        <div id='rect'>
+        </div>
+    </div>
+ </div>
+	 <!-- -->
+	 
+    <script src='script/script.js'></script> 
+     <script src='script/script2.js'></script> 
+	
+</body>
+</html>
